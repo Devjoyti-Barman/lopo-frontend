@@ -1,10 +1,10 @@
 import "./profile.css";
-
+import Gallery from "../gallery/gallery";
 function Profile(){
 
     return(
 
-       <div>
+       <div className="profile">
             <div className="profile-container">
                 <div className="profile-left-content">
                     <img  
@@ -21,7 +21,8 @@ function Profile(){
                    </div>
                 </div>
             </div>
- 
+
+            <Gallery/>
        </div>
 
     )

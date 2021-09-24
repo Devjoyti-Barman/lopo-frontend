@@ -1,10 +1,13 @@
 
-
+import Postcard from "../postcard/postcard";
 function Home(){
 
     return(
 
-       <div>Home</div>
+       <div className="home">
+           <Postcard/>
+           <Postcard/>
+       </div>
 
     )
 }

@@ -6,6 +6,7 @@ import Home from './components/home/home';
 import Signup from './components/signup/signup';
 import Signin from './components/signin/signin';
 import Profile from './components/profile/profile';
+import CreatePost from './components/createPost/createPost';
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
         </Route>
         <Route path="/profile">
            <Profile/>
+        </Route>
+
+        <Route path="/create-post">
+            <CreatePost/>
         </Route>
     </Router>
 

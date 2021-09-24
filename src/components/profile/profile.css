@@ -1,10 +1,14 @@
+ .profile{
+    max-width: 900px;
+    margin: 0 auto;
+} 
 .profile-container{
     display: flex;
     margin: 50px auto;
-    max-width: 800px ;
-    justify-content: space-around;
+    max-width: 900px ;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
+    border-bottom: 1px solid gray;
 }
 
 .profile-img{
