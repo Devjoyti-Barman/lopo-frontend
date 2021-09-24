@@ -1,0 +1,12 @@
+.btn{
+    margin-top: 10px !important;
+}
+.signup-container{
+    margin-top: 30px;
+}
+.signup-card{
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+}

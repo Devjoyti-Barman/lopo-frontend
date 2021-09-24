@@ -1,0 +1,23 @@
+.profile-container{
+    display: flex;
+    margin: 50px auto;
+    max-width: 800px ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.profile-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+
+
+.profile-right-content{
+    min-width: 300px;
+} 
+.follow-container{
+    display: flex;
+    justify-content: space-between;
+}
