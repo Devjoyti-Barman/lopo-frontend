@@ -32,9 +32,9 @@ function Signup(){
     
             })
             toast.success(response.data.message);
-            setTimeout(()=>{history.push("/signin");},4000);
+            const timer=setTimeout(()=>{history.push("/signin");},5000);
             
-            
+            return ()=>clearTimeout(timer);
         } catch ({response}) {
            setIsLoading(false);
            toast.error( response.data.error);
